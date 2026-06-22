@@ -3,9 +3,9 @@ package com.rajtechnologies.controller;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class EurekaClientServiceB implements ServiceBController {
+public class EurekaClientServiceA implements ServiceAController {
     @Override
-    public String getServiceB() {
-        return "Service B Called";
+    public String getServiceA() {
+        return "Service A Called";
     }
 }
